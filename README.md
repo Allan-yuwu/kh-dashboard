@@ -1,16 +1,23 @@
-# 项目营销十部 - 客户明细与跟进策略
+# 📊 项目营销十部 - 客户明细与跟进策略
 
-在线地址: https://allan-yuwu.github.io/kehu-dashboard/
+> 🔗 在线访问：**https://allan-yuwu.github.io/kh-dashboard/**
+
+## 功能
+
+- 183家客户明细表（分页10条/页）
+- 5大分类Tab：收费/待续/流失/历史/0客户
+- 流失/历史/0客户三类策略面板（附前程无忧验证）
+- 按销售/B值/分类/到期/标签筛选
+- 详情展开含跟进策略
 
 ## 更新数据
 
-1. 更新 
-2. 运行 Generated: 129252 chars
-Stats: 收费33 待续36 流失10 历史44 0客户60 B50+14 已过期54
-3. [master（根提交） 2bca48d] update
- 4 files changed, 6289 insertions(+)
- create mode 100644 data/processed_clients.json
- create mode 100644 generate_html.py
- create mode 100644 index.html
- create mode 100644 "\351\241\271\347\233\256\350\220\245\351\224\200\345\215\201\351\203\250\345\256\242\346\210\267\346\230\216\347\273\206.html"
+```bash
+# 1. 修改 data/processed_clients.json
+# 2. 重新生成 HTML
+python3 generate_html.py
+# 3. 提交推送
+git add . && git commit -m "更新数据" && git push
+```
 
+等待1-2分钟，GitHub Pages 自动刷新。
