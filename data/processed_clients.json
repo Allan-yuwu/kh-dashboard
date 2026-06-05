@@ -39,7 +39,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3003098345",
@@ -81,7 +82,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3003095237",
@@ -123,7 +125,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3003089982",
@@ -165,7 +168,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3003089918",
@@ -207,7 +211,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3003089914",
@@ -249,7 +254,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3003089912",
@@ -291,7 +297,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3003089894",
@@ -333,7 +340,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3003081078",
@@ -375,7 +383,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3003057334",
@@ -417,7 +426,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3003057327",
@@ -459,7 +469,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3003057300",
@@ -501,7 +512,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3003022334",
@@ -527,7 +539,7 @@
     "effect_ok": 0,
     "effect_bad": 0,
     "tag": "效果好",
-    "strategy": "<b>📅 2026-06-04 现场会议（67分钟）</b><br>\n<b>主题：</b>51job账号回顾 + RPO合作讨论<br>\n<b>关键数据：</b>简历78,000+（+1.2万），处理率44.16%（+20%），在线岗位129个<br>\n<b>资产：</b>直率制定卡剩2张，超级观光卡已用完<br>\n<b>RPO：</b>客户主动提出储能岗位RPO需求，内部评估投入可行性<br>\n<b>待办：</b>①拉取简历库数据 ②内部评估RPO可行性 ③提供岗位方案（6/11前）<br>\n<b>下次跟进：</b>2026-06-11 带简历数据+RPO方案<br>\n<b>联系人：</b>李哥<br><br><hr><br>❄️ <b>0客户</b> · 待开发<br>B值B0，评估首次合作机会",
+    "strategy": "❄️ <b>0客户</b> · 待开发<br>B值B0，评估首次合作机会",
     "expire": "-",
     "expire_days": null,
     "revenue_this": 0,
@@ -543,7 +555,18 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": [
+      {
+        "date": "2026-06-04",
+        "type": "现场会议",
+        "topic": "51job账号回顾 + RPO合作讨论（67分钟）",
+        "summary": "①账号回顾：简历78,000+（同比+1.2万），处理率44.16%（+20%），在线岗129个，曝光1000万+<br>②资产使用：超级观光卡已用完，直率制定卡剩2张，6/6后道具卡消耗预计加速<br>③RPO合作：客户主动提出储能岗位RPO需求，探讨内部资源投入可行性<br>④猎头政策变化：15级封顶2万/人，16级3万/人，中低端工程师存在RPO替代窗口<br>⑤待办：拉简历库数据、评估RPO可行性、提供岗位方案（6/11前）",
+        "minutes_link": "会议纪要/远景动力/2026-06-04/",
+        "contact": "李哥",
+        "sales": "李根"
+      }
+    ]
   },
   {
     "client_id": "3002989415",
@@ -585,7 +608,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3002980239",
@@ -627,7 +651,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3002966328",
@@ -669,7 +694,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3002881630",
@@ -711,7 +737,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3002791601",
@@ -753,7 +780,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3002782436",
@@ -795,7 +823,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3002759191",
@@ -837,7 +866,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3002759180",
@@ -879,7 +909,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3002720737",
@@ -921,7 +952,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3002706951",
@@ -963,7 +995,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3002696082",
@@ -1005,7 +1038,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3002686032",
@@ -1047,7 +1081,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3002686017",
@@ -1089,7 +1124,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3002583355",
@@ -1131,7 +1167,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3002491946",
@@ -1173,7 +1210,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3002005293",
@@ -1215,7 +1253,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3002005249",
@@ -1257,7 +1296,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3002000892",
@@ -1299,7 +1339,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3002000677",
@@ -1341,7 +1382,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001975008",
@@ -1383,7 +1425,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001958542",
@@ -1425,7 +1468,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001955352",
@@ -1467,7 +1511,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001952660",
@@ -1509,7 +1554,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001944812",
@@ -1551,7 +1597,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001944501",
@@ -1593,7 +1640,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001944473",
@@ -1635,7 +1683,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001944467",
@@ -1677,7 +1726,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001880290",
@@ -1719,7 +1769,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001865651",
@@ -1761,7 +1812,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 3
+    "free_accounts": 3,
+    "follow_up_records": []
   },
   {
     "client_id": "3001808266",
@@ -1803,7 +1855,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001806258",
@@ -1845,7 +1898,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001785283",
@@ -1887,7 +1941,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001744903",
@@ -1929,7 +1984,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001612202",
@@ -1971,7 +2027,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001606987",
@@ -2013,7 +2070,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001606975",
@@ -2055,7 +2113,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001591119",
@@ -2097,7 +2156,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001577780",
@@ -2139,7 +2199,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001476499",
@@ -2181,7 +2242,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001471617",
@@ -2223,7 +2285,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001409286",
@@ -2265,7 +2328,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001404453",
@@ -2307,7 +2371,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001213142",
@@ -2349,7 +2414,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3001091348",
@@ -2391,7 +2457,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000957846",
@@ -2433,7 +2500,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000954335",
@@ -2475,7 +2543,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000920721",
@@ -2517,7 +2586,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000869280",
@@ -2559,7 +2629,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000721290",
@@ -2601,7 +2672,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000678081",
@@ -2643,7 +2715,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000622905",
@@ -2685,7 +2758,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000614880",
@@ -2727,7 +2801,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000561452",
@@ -2769,7 +2844,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000561279",
@@ -2811,7 +2887,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000527261",
@@ -2853,7 +2930,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000522157",
@@ -2895,7 +2973,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000348375",
@@ -2937,7 +3016,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000203210",
@@ -2979,7 +3059,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000137864",
@@ -3021,7 +3102,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000118364",
@@ -3063,7 +3145,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000117195",
@@ -3105,7 +3188,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000110748",
@@ -3147,7 +3231,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "3000098099",
@@ -3189,7 +3274,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "2703292615",
@@ -3231,7 +3317,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "2701797321",
@@ -3273,7 +3360,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 2
+    "free_accounts": 2,
+    "follow_up_records": []
   },
   {
     "client_id": "2000260778",
@@ -3315,7 +3403,8 @@
     "wyt_used": 2022,
     "wyt_total": 3280,
     "premium_used": 19,
-    "free_accounts": 33
+    "free_accounts": 33,
+    "follow_up_records": []
   },
   {
     "client_id": "600470938",
@@ -3357,7 +3446,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "400024478",
@@ -3399,7 +3489,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "200771312",
@@ -3441,7 +3532,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 1
+    "free_accounts": 1,
+    "follow_up_records": []
   },
   {
     "client_id": "200267903",
@@ -3483,7 +3575,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 1000
+    "free_accounts": 1000,
+    "follow_up_records": []
   },
   {
     "client_id": "200035091",
@@ -3525,7 +3618,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101117180",
@@ -3567,7 +3661,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101113653",
@@ -3609,7 +3704,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101103921",
@@ -3651,7 +3747,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101102812",
@@ -3693,7 +3790,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101099407",
@@ -3735,7 +3833,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101080467",
@@ -3777,7 +3876,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101080136",
@@ -3819,7 +3919,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101080028",
@@ -3861,7 +3962,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101079825",
@@ -3903,7 +4005,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101079348",
@@ -3945,7 +4048,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101078715",
@@ -3987,7 +4091,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101077589",
@@ -4029,7 +4134,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101077567",
@@ -4071,7 +4177,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101077537",
@@ -4113,7 +4220,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101075763",
@@ -4155,7 +4263,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101072576",
@@ -4197,7 +4306,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 1
+    "free_accounts": 1,
+    "follow_up_records": []
   },
   {
     "client_id": "101071384",
@@ -4239,7 +4349,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101070388",
@@ -4281,7 +4392,8 @@
     "wyt_used": 133,
     "wyt_total": 260,
     "premium_used": 4,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101068934",
@@ -4323,7 +4435,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101054763",
@@ -4365,7 +4478,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101053792",
@@ -4407,7 +4521,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101052215",
@@ -4449,7 +4564,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101046298",
@@ -4491,7 +4607,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101043481",
@@ -4533,7 +4650,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101023081",
@@ -4575,7 +4693,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 2
+    "free_accounts": 2,
+    "follow_up_records": []
   },
   {
     "client_id": "101022383",
@@ -4617,7 +4736,8 @@
     "wyt_used": 90,
     "wyt_total": 140,
     "premium_used": 3,
-    "free_accounts": 2
+    "free_accounts": 2,
+    "follow_up_records": []
   },
   {
     "client_id": "101018261",
@@ -4659,7 +4779,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 2
+    "free_accounts": 2,
+    "follow_up_records": []
   },
   {
     "client_id": "101012811",
@@ -4701,7 +4822,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101012093",
@@ -4743,7 +4865,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101010361",
@@ -4785,7 +4908,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101008031",
@@ -4827,7 +4951,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101003950",
@@ -4869,7 +4994,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101001286",
@@ -4911,7 +5037,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "101000012",
@@ -4953,7 +5080,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100997721",
@@ -4995,7 +5123,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100993073",
@@ -5037,7 +5166,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100988925",
@@ -5079,7 +5209,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100987811",
@@ -5121,7 +5252,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100987635",
@@ -5163,7 +5295,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100986623",
@@ -5205,7 +5338,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100986034",
@@ -5247,7 +5381,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100985566",
@@ -5289,7 +5424,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100985333",
@@ -5331,7 +5467,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100977961",
@@ -5373,7 +5510,8 @@
     "wyt_used": 1510,
     "wyt_total": 1600,
     "premium_used": 1,
-    "free_accounts": 12
+    "free_accounts": 12,
+    "follow_up_records": []
   },
   {
     "client_id": "100977799",
@@ -5415,7 +5553,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100976853",
@@ -5457,7 +5596,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100976109",
@@ -5499,7 +5639,8 @@
     "wyt_used": 194,
     "wyt_total": 300,
     "premium_used": 14,
-    "free_accounts": 9
+    "free_accounts": 9,
+    "follow_up_records": []
   },
   {
     "client_id": "100976108",
@@ -5541,7 +5682,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 3
+    "free_accounts": 3,
+    "follow_up_records": []
   },
   {
     "client_id": "100975520",
@@ -5583,7 +5725,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100975126",
@@ -5625,7 +5768,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100974698",
@@ -5667,7 +5811,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100974617",
@@ -5709,7 +5854,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100974384",
@@ -5751,7 +5897,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100974251",
@@ -5793,7 +5940,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100974250",
@@ -5835,7 +5983,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100973959",
@@ -5877,7 +6026,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100973538",
@@ -5919,7 +6069,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100973310",
@@ -5961,7 +6112,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100973133",
@@ -6003,7 +6155,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100972901",
@@ -6045,7 +6198,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100972487",
@@ -6087,7 +6241,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100972195",
@@ -6129,7 +6284,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 1
+    "free_accounts": 1,
+    "follow_up_records": []
   },
   {
     "client_id": "100971855",
@@ -6171,7 +6327,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100971773",
@@ -6213,7 +6370,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100971619",
@@ -6255,7 +6413,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100970935",
@@ -6297,7 +6456,8 @@
     "wyt_used": 174,
     "wyt_total": 360,
     "premium_used": 8,
-    "free_accounts": 32
+    "free_accounts": 32,
+    "follow_up_records": []
   },
   {
     "client_id": "100970137",
@@ -6339,7 +6499,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100970092",
@@ -6381,7 +6542,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 6
+    "free_accounts": 6,
+    "follow_up_records": []
   },
   {
     "client_id": "100969986",
@@ -6423,7 +6585,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100969894",
@@ -6465,7 +6628,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100969889",
@@ -6507,7 +6671,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100969615",
@@ -6549,7 +6714,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100969466",
@@ -6591,7 +6757,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100969318",
@@ -6633,7 +6800,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100969072",
@@ -6675,7 +6843,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100968829",
@@ -6717,7 +6886,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100964684",
@@ -6759,7 +6929,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100963908",
@@ -6801,7 +6972,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100963907",
@@ -6843,7 +7015,8 @@
     "wyt_used": 961,
     "wyt_total": 2180,
     "premium_used": 11,
-    "free_accounts": 2
+    "free_accounts": 2,
+    "follow_up_records": []
   },
   {
     "client_id": "100963109",
@@ -6885,7 +7058,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 30
+    "free_accounts": 30,
+    "follow_up_records": []
   },
   {
     "client_id": "100963108",
@@ -6927,7 +7101,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100962673",
@@ -6969,7 +7144,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 6
+    "free_accounts": 6,
+    "follow_up_records": []
   },
   {
     "client_id": "100962657",
@@ -7011,7 +7187,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100962314",
@@ -7053,7 +7230,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100955452",
@@ -7095,7 +7273,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100954034",
@@ -7137,7 +7316,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100951527",
@@ -7179,7 +7359,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100949130",
@@ -7221,7 +7402,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100946149",
@@ -7263,7 +7445,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100935636",
@@ -7305,7 +7488,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100931306",
@@ -7347,7 +7531,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 2
+    "free_accounts": 2,
+    "follow_up_records": []
   },
   {
     "client_id": "100931179",
@@ -7389,7 +7574,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 7
+    "free_accounts": 7,
+    "follow_up_records": []
   },
   {
     "client_id": "100929563",
@@ -7431,7 +7617,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100897034",
@@ -7473,7 +7660,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100896134",
@@ -7515,7 +7703,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100895717",
@@ -7557,7 +7746,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100890216",
@@ -7599,7 +7789,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100885525",
@@ -7641,7 +7832,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100871112",
@@ -7683,7 +7875,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 6
+    "free_accounts": 6,
+    "follow_up_records": []
   },
   {
     "client_id": "100866215",
@@ -7725,7 +7918,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100838238",
@@ -7767,7 +7961,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100825327",
@@ -7809,7 +8004,8 @@
     "wyt_used": 494,
     "wyt_total": 520,
     "premium_used": 3,
-    "free_accounts": 3
+    "free_accounts": 3,
+    "follow_up_records": []
   },
   {
     "client_id": "100823138",
@@ -7851,7 +8047,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100785784",
@@ -7893,7 +8090,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100784675",
@@ -7935,7 +8133,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100778826",
@@ -7977,7 +8176,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100777570",
@@ -8019,7 +8219,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100752141",
@@ -8061,7 +8262,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100747394",
@@ -8103,7 +8305,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100740895",
@@ -8145,7 +8348,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100740637",
@@ -8187,7 +8391,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100730278",
@@ -8229,7 +8434,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100728236",
@@ -8271,7 +8477,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100720765",
@@ -8313,7 +8520,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100713668",
@@ -8355,7 +8563,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100712551",
@@ -8397,7 +8606,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100706630",
@@ -8439,7 +8649,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 1
+    "free_accounts": 1,
+    "follow_up_records": []
   },
   {
     "client_id": "100697744",
@@ -8481,7 +8692,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100697598",
@@ -8523,7 +8735,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100681997",
@@ -8565,7 +8778,8 @@
     "wyt_used": 971,
     "wyt_total": 1000,
     "premium_used": 4,
-    "free_accounts": 20
+    "free_accounts": 20,
+    "follow_up_records": []
   },
   {
     "client_id": "100678639",
@@ -8607,7 +8821,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100665398",
@@ -8649,7 +8864,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100663923",
@@ -8691,7 +8907,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100656504",
@@ -8733,7 +8950,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100641361",
@@ -8775,7 +8993,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100638341",
@@ -8817,7 +9036,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 3
+    "free_accounts": 3,
+    "follow_up_records": []
   },
   {
     "client_id": "100637163",
@@ -8859,7 +9079,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100635156",
@@ -8901,7 +9122,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100583969",
@@ -8943,7 +9165,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100579675",
@@ -8985,7 +9208,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100573268",
@@ -9027,7 +9251,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 1
+    "free_accounts": 1,
+    "follow_up_records": []
   },
   {
     "client_id": "100536965",
@@ -9069,7 +9294,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100535520",
@@ -9111,7 +9337,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100527533",
@@ -9153,7 +9380,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100500908",
@@ -9195,7 +9423,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 8
+    "free_accounts": 8,
+    "follow_up_records": []
   },
   {
     "client_id": "100500208",
@@ -9237,7 +9466,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 6
+    "free_accounts": 6,
+    "follow_up_records": []
   },
   {
     "client_id": "100498078",
@@ -9279,7 +9509,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100496727",
@@ -9321,7 +9552,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100487766",
@@ -9363,7 +9595,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100470932",
@@ -9405,7 +9638,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100467642",
@@ -9447,7 +9681,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100466854",
@@ -9489,7 +9724,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100456087",
@@ -9531,7 +9767,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100446959",
@@ -9573,7 +9810,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100442951",
@@ -9615,7 +9853,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100437754",
@@ -9657,7 +9896,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100396622",
@@ -9699,7 +9939,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100389590",
@@ -9741,7 +9982,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100377398",
@@ -9783,7 +10025,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100374159",
@@ -9825,7 +10068,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 3
+    "free_accounts": 3,
+    "follow_up_records": []
   },
   {
     "client_id": "100363271",
@@ -9867,7 +10111,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 2
+    "free_accounts": 2,
+    "follow_up_records": []
   },
   {
     "client_id": "100334741",
@@ -9909,7 +10154,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100327083",
@@ -9951,7 +10197,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100323090",
@@ -9993,7 +10240,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100306194",
@@ -10035,7 +10283,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100299500",
@@ -10077,7 +10326,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 23
+    "free_accounts": 23,
+    "follow_up_records": []
   },
   {
     "client_id": "100291488",
@@ -10119,7 +10369,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100289033",
@@ -10161,7 +10412,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100278272",
@@ -10203,7 +10455,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100275726",
@@ -10245,7 +10498,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100260980",
@@ -10287,7 +10541,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 3
+    "free_accounts": 3,
+    "follow_up_records": []
   },
   {
     "client_id": "100259178",
@@ -10329,7 +10584,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100259136",
@@ -10371,7 +10627,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100250215",
@@ -10413,7 +10670,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100249842",
@@ -10455,7 +10713,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100249753",
@@ -10497,7 +10756,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 6
+    "free_accounts": 6,
+    "follow_up_records": []
   },
   {
     "client_id": "100245791",
@@ -10539,7 +10799,8 @@
     "wyt_used": 155,
     "wyt_total": 578,
     "premium_used": 1,
-    "free_accounts": 1
+    "free_accounts": 1,
+    "follow_up_records": []
   },
   {
     "client_id": "100229909",
@@ -10581,7 +10842,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100228367",
@@ -10623,7 +10885,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100222456",
@@ -10665,7 +10928,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100222409",
@@ -10707,7 +10971,8 @@
     "wyt_used": 0,
     "wyt_total": 500,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100216985",
@@ -10749,7 +11014,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100214412",
@@ -10791,7 +11057,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100212129",
@@ -10833,7 +11100,8 @@
     "wyt_used": 800,
     "wyt_total": 800,
     "premium_used": 2,
-    "free_accounts": 1
+    "free_accounts": 1,
+    "follow_up_records": []
   },
   {
     "client_id": "100209031",
@@ -10875,7 +11143,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100208344",
@@ -10917,7 +11186,8 @@
     "wyt_used": 665,
     "wyt_total": 1020,
     "premium_used": 3,
-    "free_accounts": 4
+    "free_accounts": 4,
+    "follow_up_records": []
   },
   {
     "client_id": "100205303",
@@ -10959,7 +11229,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 2
+    "free_accounts": 2,
+    "follow_up_records": []
   },
   {
     "client_id": "100201801",
@@ -11001,7 +11272,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100200570",
@@ -11043,7 +11315,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100200333",
@@ -11085,7 +11358,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100198025",
@@ -11127,7 +11401,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100197558",
@@ -11169,7 +11444,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100195209",
@@ -11211,7 +11487,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100192311",
@@ -11253,7 +11530,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100190843",
@@ -11295,7 +11573,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 4
+    "free_accounts": 4,
+    "follow_up_records": []
   },
   {
     "client_id": "100181564",
@@ -11337,7 +11616,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100181554",
@@ -11379,7 +11659,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100175100",
@@ -11421,7 +11702,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100168806",
@@ -11463,7 +11745,8 @@
     "wyt_used": 450,
     "wyt_total": 1000,
     "premium_used": 6,
-    "free_accounts": 10
+    "free_accounts": 10,
+    "follow_up_records": []
   },
   {
     "client_id": "100165815",
@@ -11505,7 +11788,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100164821",
@@ -11547,7 +11831,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100159046",
@@ -11589,7 +11874,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100158226",
@@ -11631,7 +11917,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100156812",
@@ -11673,7 +11960,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100155018",
@@ -11715,7 +12003,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100154440",
@@ -11757,7 +12046,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 19
+    "free_accounts": 19,
+    "follow_up_records": []
   },
   {
     "client_id": "100147862",
@@ -11799,7 +12089,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 29
+    "free_accounts": 29,
+    "follow_up_records": []
   },
   {
     "client_id": "100147332",
@@ -11841,7 +12132,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100146781",
@@ -11883,7 +12175,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 141
+    "free_accounts": 141,
+    "follow_up_records": []
   },
   {
     "client_id": "100146777",
@@ -11925,7 +12218,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100143350",
@@ -11967,7 +12261,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100142777",
@@ -12009,7 +12304,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100141917",
@@ -12051,7 +12347,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100137204",
@@ -12093,7 +12390,8 @@
     "wyt_used": 49,
     "wyt_total": 400,
     "premium_used": 0,
-    "free_accounts": 6
+    "free_accounts": 6,
+    "follow_up_records": []
   },
   {
     "client_id": "100135574",
@@ -12135,7 +12433,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100134398",
@@ -12177,7 +12476,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 15
+    "free_accounts": 15,
+    "follow_up_records": []
   },
   {
     "client_id": "100133940",
@@ -12219,7 +12519,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 89
+    "free_accounts": 89,
+    "follow_up_records": []
   },
   {
     "client_id": "100128951",
@@ -12261,7 +12562,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100125705",
@@ -12303,7 +12605,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 6
+    "free_accounts": 6,
+    "follow_up_records": []
   },
   {
     "client_id": "100122324",
@@ -12345,7 +12648,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 9
+    "free_accounts": 9,
+    "follow_up_records": []
   },
   {
     "client_id": "100120878",
@@ -12387,7 +12691,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 7
+    "free_accounts": 7,
+    "follow_up_records": []
   },
   {
     "client_id": "100119729",
@@ -12429,7 +12734,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 4
+    "free_accounts": 4,
+    "follow_up_records": []
   },
   {
     "client_id": "100118761",
@@ -12471,7 +12777,8 @@
     "wyt_used": 0,
     "wyt_total": 1000,
     "premium_used": 1,
-    "free_accounts": 1
+    "free_accounts": 1,
+    "follow_up_records": []
   },
   {
     "client_id": "100116205",
@@ -12513,7 +12820,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 2
+    "free_accounts": 2,
+    "follow_up_records": []
   },
   {
     "client_id": "100114494",
@@ -12555,7 +12863,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 4
+    "free_accounts": 4,
+    "follow_up_records": []
   },
   {
     "client_id": "100099677",
@@ -12597,7 +12906,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 4
+    "free_accounts": 4,
+    "follow_up_records": []
   },
   {
     "client_id": "100096783",
@@ -12639,7 +12949,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100092316",
@@ -12681,7 +12992,8 @@
     "wyt_used": 692,
     "wyt_total": 810,
     "premium_used": 6,
-    "free_accounts": 5
+    "free_accounts": 5,
+    "follow_up_records": []
   },
   {
     "client_id": "100091898",
@@ -12723,7 +13035,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100090352",
@@ -12765,7 +13078,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100085594",
@@ -12807,7 +13121,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 11
+    "free_accounts": 11,
+    "follow_up_records": []
   },
   {
     "client_id": "100080887",
@@ -12849,7 +13164,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100076142",
@@ -12891,7 +13207,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 10
+    "free_accounts": 10,
+    "follow_up_records": []
   },
   {
     "client_id": "100062280",
@@ -12933,7 +13250,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 19
+    "free_accounts": 19,
+    "follow_up_records": []
   },
   {
     "client_id": "100061726",
@@ -12975,7 +13293,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100057658",
@@ -13017,7 +13336,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100050807",
@@ -13059,7 +13379,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100049718",
@@ -13101,7 +13422,8 @@
     "wyt_used": 30,
     "wyt_total": 320,
     "premium_used": 2,
-    "free_accounts": 10
+    "free_accounts": 10,
+    "follow_up_records": []
   },
   {
     "client_id": "100047528",
@@ -13143,7 +13465,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 16,
-    "free_accounts": 98
+    "free_accounts": 98,
+    "follow_up_records": []
   },
   {
     "client_id": "100047049",
@@ -13185,7 +13508,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100036466",
@@ -13227,7 +13551,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 8
+    "free_accounts": 8,
+    "follow_up_records": []
   },
   {
     "client_id": "100033092",
@@ -13269,7 +13594,8 @@
     "wyt_used": 21,
     "wyt_total": 360,
     "premium_used": 1,
-    "free_accounts": 3
+    "free_accounts": 3,
+    "follow_up_records": []
   },
   {
     "client_id": "100032702",
@@ -13311,7 +13637,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100031559",
@@ -13353,7 +13680,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100029063",
@@ -13395,7 +13723,8 @@
     "wyt_used": 1,
     "wyt_total": 250,
     "premium_used": 2,
-    "free_accounts": 1
+    "free_accounts": 1,
+    "follow_up_records": []
   },
   {
     "client_id": "100028832",
@@ -13437,7 +13766,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100026536",
@@ -13479,7 +13809,8 @@
     "wyt_used": 205,
     "wyt_total": 470,
     "premium_used": 6,
-    "free_accounts": 10
+    "free_accounts": 10,
+    "follow_up_records": []
   },
   {
     "client_id": "100023755",
@@ -13521,7 +13852,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 3
+    "free_accounts": 3,
+    "follow_up_records": []
   },
   {
     "client_id": "100022750",
@@ -13563,7 +13895,8 @@
     "wyt_used": 1801,
     "wyt_total": 2050,
     "premium_used": 18,
-    "free_accounts": 19
+    "free_accounts": 19,
+    "follow_up_records": []
   },
   {
     "client_id": "100021628",
@@ -13605,7 +13938,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100020997",
@@ -13647,7 +13981,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 53
+    "free_accounts": 53,
+    "follow_up_records": []
   },
   {
     "client_id": "100019890",
@@ -13689,7 +14024,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100019564",
@@ -13731,7 +14067,8 @@
     "wyt_used": 240,
     "wyt_total": 240,
     "premium_used": 2,
-    "free_accounts": 6
+    "free_accounts": 6,
+    "follow_up_records": []
   },
   {
     "client_id": "100019471",
@@ -13773,7 +14110,8 @@
     "wyt_used": 578,
     "wyt_total": 600,
     "premium_used": 4,
-    "free_accounts": 3
+    "free_accounts": 3,
+    "follow_up_records": []
   },
   {
     "client_id": "100018838",
@@ -13815,7 +14153,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100018640",
@@ -13857,7 +14196,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 3
+    "free_accounts": 3,
+    "follow_up_records": []
   },
   {
     "client_id": "100018299",
@@ -13899,7 +14239,8 @@
     "wyt_used": 600,
     "wyt_total": 600,
     "premium_used": 0,
-    "free_accounts": 2
+    "free_accounts": 2,
+    "follow_up_records": []
   },
   {
     "client_id": "100017740",
@@ -13941,7 +14282,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100017135",
@@ -13983,7 +14325,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100016759",
@@ -14025,7 +14368,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 1
+    "free_accounts": 1,
+    "follow_up_records": []
   },
   {
     "client_id": "100016708",
@@ -14067,7 +14411,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 16
+    "free_accounts": 16,
+    "follow_up_records": []
   },
   {
     "client_id": "100013976",
@@ -14109,7 +14454,8 @@
     "wyt_used": 320,
     "wyt_total": 460,
     "premium_used": 6,
-    "free_accounts": 9
+    "free_accounts": 9,
+    "follow_up_records": []
   },
   {
     "client_id": "100013441",
@@ -14151,7 +14497,8 @@
     "wyt_used": 357,
     "wyt_total": 450,
     "premium_used": 12,
-    "free_accounts": 22
+    "free_accounts": 22,
+    "follow_up_records": []
   },
   {
     "client_id": "100013150",
@@ -14193,7 +14540,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100012410",
@@ -14235,7 +14583,8 @@
     "wyt_used": 420,
     "wyt_total": 420,
     "premium_used": 1,
-    "free_accounts": 3
+    "free_accounts": 3,
+    "follow_up_records": []
   },
   {
     "client_id": "100012163",
@@ -14277,7 +14626,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 1
+    "free_accounts": 1,
+    "follow_up_records": []
   },
   {
     "client_id": "100012026",
@@ -14319,7 +14669,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100011816",
@@ -14361,7 +14712,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 6
+    "free_accounts": 6,
+    "follow_up_records": []
   },
   {
     "client_id": "100011037",
@@ -14403,7 +14755,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100010996",
@@ -14445,7 +14798,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 20
+    "free_accounts": 20,
+    "follow_up_records": []
   },
   {
     "client_id": "100010504",
@@ -14487,7 +14841,8 @@
     "wyt_used": 779,
     "wyt_total": 780,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100010486",
@@ -14529,7 +14884,8 @@
     "wyt_used": 2794,
     "wyt_total": 2800,
     "premium_used": 3,
-    "free_accounts": 4
+    "free_accounts": 4,
+    "follow_up_records": []
   },
   {
     "client_id": "100010429",
@@ -14571,7 +14927,8 @@
     "wyt_used": 389,
     "wyt_total": 530,
     "premium_used": 0,
-    "free_accounts": 9
+    "free_accounts": 9,
+    "follow_up_records": []
   },
   {
     "client_id": "100010362",
@@ -14613,7 +14970,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100008757",
@@ -14655,7 +15013,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 3
+    "free_accounts": 3,
+    "follow_up_records": []
   },
   {
     "client_id": "100008743",
@@ -14697,7 +15056,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 2
+    "free_accounts": 2,
+    "follow_up_records": []
   },
   {
     "client_id": "100007660",
@@ -14739,7 +15099,8 @@
     "wyt_used": 200,
     "wyt_total": 200,
     "premium_used": 1,
-    "free_accounts": 2
+    "free_accounts": 2,
+    "follow_up_records": []
   },
   {
     "client_id": "100006932",
@@ -14781,7 +15142,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 1
+    "free_accounts": 1,
+    "follow_up_records": []
   },
   {
     "client_id": "100006365",
@@ -14823,7 +15185,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100006236",
@@ -14865,7 +15228,8 @@
     "wyt_used": 3441,
     "wyt_total": 5100,
     "premium_used": 0,
-    "free_accounts": 55
+    "free_accounts": 55,
+    "follow_up_records": []
   },
   {
     "client_id": "100006136",
@@ -14907,7 +15271,8 @@
     "wyt_used": 127,
     "wyt_total": 220,
     "premium_used": 5,
-    "free_accounts": 16
+    "free_accounts": 16,
+    "follow_up_records": []
   },
   {
     "client_id": "100005626",
@@ -14949,7 +15314,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100005510",
@@ -14991,7 +15357,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 9
+    "free_accounts": 9,
+    "follow_up_records": []
   },
   {
     "client_id": "100005273",
@@ -15033,7 +15400,8 @@
     "wyt_used": 422,
     "wyt_total": 880,
     "premium_used": 2,
-    "free_accounts": 1
+    "free_accounts": 1,
+    "follow_up_records": []
   },
   {
     "client_id": "100003898",
@@ -15075,7 +15443,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 5
+    "free_accounts": 5,
+    "follow_up_records": []
   },
   {
     "client_id": "100001570",
@@ -15117,7 +15486,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100000656",
@@ -15159,7 +15529,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 0
+    "free_accounts": 0,
+    "follow_up_records": []
   },
   {
     "client_id": "100000559",
@@ -15201,7 +15572,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 2
+    "free_accounts": 2,
+    "follow_up_records": []
   },
   {
     "client_id": "100000107",
@@ -15243,7 +15615,8 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 1
+    "free_accounts": 1,
+    "follow_up_records": []
   },
   {
     "client_id": "100000046",
@@ -15285,6 +15658,7 @@
     "wyt_used": 0,
     "wyt_total": 0,
     "premium_used": 0,
-    "free_accounts": 28
+    "free_accounts": 28,
+    "follow_up_records": []
   }
 ]
