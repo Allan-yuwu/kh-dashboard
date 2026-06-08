@@ -47,6 +47,10 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);line-height:
 .memo-box{background:#f8f9fa;border-radius:8px;padding:14px 16px;font-size:13px;color:var(--dim);margin-top:12px}
 .memo-box strong{color:var(--text)}
 .hint{font-size:12px;color:var(--dim);margin-top:6px}
+.chart-bar{display:flex;align-items:center;gap:8px;margin:4px 0;font-size:12px}
+.chart-bar .bar{height:16px;background:var(--accent);border-radius:3px;min-width:2px}
+.chart-bar .lbl{flex:1;color:var(--dim)}
+.chart-bar .val{min-width:40px;text-align:right;font-weight:500}
 </style>
 </head>
 <body>
@@ -59,89 +63,156 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);line-height:
 
 <div class="container">
 
+  <!-- 产品概念更新提示 -->
+  <div style="background:var(--amber-bg);border:1px solid #ffe082;border-radius:12px;padding:16px 20px;margin-bottom:16px">
+    <div style="font-size:13px;font-weight:600;color:#f57f17;margin-bottom:6px">📢 产品概念更新（2025.8.18起）</div>
+    <div style="font-size:13px;color:#5f6368;line-height:1.7">
+      无忧通已<strong>停止售卖</strong>，现有客户的无忧通均为<strong>存量</strong>。新产品形式为：<strong>账号发布职位坑位 + 道具</strong>。
+      分析口径从"无忧通消耗"转向"发布坑位使用率 + 道具渗透"。
+    </div>
+  </div>
+
   <!-- 核心指标 -->
   <div class="card">
-    <div class="card-title">📊 核心指标速览</div>
+    <div class="card-title">📊 核心指标速览（2026.1.1-5月）</div>
     <div class="kpi-grid">
       <div class="kpi-item">
-        <div class="label">网站25A</div>
-        <div class="value" style="color:var(--accent)">15,400</div>
-        <div class="sub">我方合同金额</div>
+        <div class="label">总操作次数</div>
+        <div class="value" style="color:var(--accent)">34</div>
+        <div class="sub">1月-5月</div>
       </div>
       <div class="kpi-item">
-        <div class="label">网站26A</div>
-        <div class="value" style="color:var(--accent)">15,010</div>
-        <div class="sub">本年收入</div>
+        <div class="label">职位发布</div>
+        <div class="value" style="color:var(--accent)">22</div>
+        <div class="sub">首发21 + 再发1</div>
+      </div>
+      <div class="kpi-item good">
+        <div class="label">道具使用</div>
+        <div class="value">9</div>
+        <div class="sub">职位置顶plus</div>
       </div>
       <div class="kpi-item warn">
-        <div class="label">收入同比</div>
-        <div class="value">-3%</div>
-        <div class="sub">15,010 vs 15,400</div>
-      </div>
-      <div class="kpi-item danger">
-        <div class="label">竞品投入(B值)</div>
-        <div class="value">95,920</div>
-        <div class="sub">猎聘39职位/11HR</div>
+        <div class="label">折合无忧通</div>
+        <div class="value">181</div>
+        <div class="sub">存量计量参考</div>
       </div>
     </div>
     <div class="kpi-grid" style="grid-template-columns:repeat(3,1fr)">
-      <div class="kpi-item good">
-        <div class="label">我方在招职位</div>
-        <div class="value">148</div>
-        <div class="sub">效果好109 / 一般39</div>
+      <div class="kpi-item">
+        <div class="label">活跃HR</div>
+        <div class="value" style="color:var(--accent)">2</div>
+        <div class="sub">王丛悦(主力) + 顾佳玮</div>
+      </div>
+      <div class="kpi-item">
+        <div class="label">涉及职位</div>
+        <div class="value" style="color:var(--accent)">14</div>
+        <div class="sub">覆盖多岗位类型</div>
       </div>
       <div class="kpi-item warn">
-        <div class="label">无忧通消耗</div>
-        <div class="value">420/420</div>
-        <div class="sub">⚠️ 已全部用完</div>
-      </div>
-      <div class="kpi-item danger">
-        <div class="label">道具使用</div>
-        <div class="value">1</div>
-        <div class="sub">⚠️ 道具渗透极低</div>
+        <div class="label">网站26A收入</div>
+        <div class="value">15,010</div>
+        <div class="sub">同比-3%</div>
       </div>
     </div>
   </div>
 
-  <!-- 我方 vs 竞品对比 -->
+  <!-- 按月消耗趋势 -->
   <div class="card">
-    <div class="card-title">⚔️ 我方 vs 竞品对比</div>
+    <div class="card-title">📈 按月消耗趋势（2026年）</div>
+    <div style="margin:10px 0">
+      <div class="chart-bar"><div class="lbl">1月</div><div class="bar" style="width:95%;background:var(--red)"></div><div class="val">12次(159)</div></div>
+      <div class="chart-bar"><div class="lbl">2月</div><div class="bar" style="width:16%;background:var(--amber)"></div><div class="val">2次(2)</div></div>
+      <div class="chart-bar"><div class="lbl">3月</div><div class="bar" style="width:33%;background:var(--amber)"></div><div class="val">4次(4)</div></div>
+      <div class="chart-bar"><div class="lbl">4月</div><div class="bar" style="width:42%;background:var(--amber)"></div><div class="val">5次(5)</div></div>
+      <div class="chart-bar"><div class="lbl">5月</div><div class="bar" style="width:88%;background:var(--accent)"></div><div class="val">11次(11)</div></div>
+    </div>
+    <div class="hint">括号内为折合无忧通数。1月高峰因3次高价值职位置顶plus（每次50无忧通），4-5月道具价值大幅下降（每次仅1无忧通）。</div>
+  </div>
+
+  <!-- HR维度分析 -->
+  <div class="card">
+    <div class="card-title">👤 HR维度分析</div>
     <table class="compare-table">
-      <tr><th>维度</th><th>我方(51job)</th><th>竞品(猎聘/智联/Boss)</th><th>差距</th></tr>
+      <tr><th>HR</th><th>操作次数</th><th>折合无忧通</th><th>操作类型</th><th>涉及职位</th><th>状态</th></tr>
       <tr>
-        <td>在招职位数</td>
-        <td><strong>148</strong></td>
-        <td>109（猎聘39）</td>
-        <td><span class="tag tag-green">我方领先</span></td>
+        <td><strong>王丛悦</strong></td>
+        <td>33</td>
+        <td>180</td>
+        <td>首发21 / 置顶9 / 电话2 / 再发1</td>
+        <td>14个</td>
+        <td><span class="tag tag-green">主力用户</span></td>
       </tr>
       <tr>
-        <td>活跃HR数</td>
-        <td>—</td>
-        <td>11（竞品发布HR）</td>
-        <td><span class="tag tag-amber">待对比</span></td>
-      </tr>
-      <tr>
-        <td>合同金额(25A)</td>
-        <td>15,400</td>
-        <td>95,920(B值)</td>
-        <td><span class="tag tag-red">竞品6.2倍</span></td>
-      </tr>
-      <tr>
-        <td>道具使用</td>
-        <td>仅1个</td>
-        <td>—</td>
-        <td><span class="tag tag-red">严重不足</span></td>
-      </tr>
-      <tr>
-        <td>无忧通</td>
-        <td>420/420（用完）</td>
-        <td>—</td>
-        <td><span class="tag tag-amber">需续费</span></td>
+        <td>顾佳玮</td>
+        <td>1</td>
+        <td>1</td>
+        <td>电话沟通</td>
+        <td>0</td>
+        <td><span class="tag tag-red">未发布职位</span></td>
       </tr>
     </table>
     <div class="data-gap">
-      <strong>⚠️ 数据缺口：</strong>需要补充我方消耗明细中各HR的发布/再发布记录、道具使用明细，才能精准定位哪些HR只发职位不用道具。
+      <strong>⚠️ 关键发现：</strong>仅王丛悦1人在使用51job发布职位，顾佳玮虽有账号但完全未发布。竞品有11个HR在发布，我方仅1个HR实际在用 → <strong>HR覆盖严重不足</strong>
     </div>
+  </div>
+
+  <!-- 道具使用分析 -->
+  <div class="card">
+    <div class="card-title">🎯 道具使用分析（职位置顶plus）</div>
+    <table class="compare-table">
+      <tr><th>时间</th><th>职位</th><th>折合无忧通</th><th>分析</th></tr>
+      <tr>
+        <td>2026-01-16</td>
+        <td>抖音电商运营专员</td>
+        <td><strong>50</strong></td>
+        <td><span class="tag tag-green">高价值</span> 新品类岗位，竞争大</td>
+      </tr>
+      <tr>
+        <td>2026-01-23</td>
+        <td>抖音运营主管</td>
+        <td><strong>50</strong></td>
+        <td><span class="tag tag-green">高价值</span> 管理岗，招聘难度高</td>
+      </tr>
+      <tr>
+        <td>2026-01-23</td>
+        <td>达人运营主管</td>
+        <td><strong>50</strong></td>
+        <td><span class="tag tag-green">高价值</span> 新兴岗位，人才稀缺</td>
+      </tr>
+      <tr>
+        <td>2026-04-25 ×3</td>
+        <td>协同系统ITBP</td>
+        <td>1×3</td>
+        <td><span class="tag tag-amber">低价值</span> 同职位多次置顶</td>
+      </tr>
+      <tr>
+        <td>2026-05-14 ×3</td>
+        <td>零售市场活动资深专员</td>
+        <td>1×3</td>
+        <td><span class="tag tag-amber">低价值</span> 同职位多次置顶</td>
+      </tr>
+    </table>
+    <div class="data-gap">
+      <strong>💡 道具价值分析：</strong>1月3次高价值置顶（每次50无忧通），集中在电商/运营类岗位；4-5月6次低价值置顶（每次1无忧通），集中在IT/零售岗位。<strong>道具策略从"打新岗位"退化为"常规刷新"</strong>，需要重新激活高价值道具使用。
+    </div>
+  </div>
+
+  <!-- 职位消耗排名 -->
+  <div class="card">
+    <div class="card-title">📋 职位消耗排名（TOP10）</div>
+    <table class="compare-table">
+      <tr><th>排名</th><th>职位名称</th><th>操作次数</th><th>类型</th></tr>
+      <tr><td>1</td><td>协同系统ITBP</td><td>5</td><td>首发+置顶</td></tr>
+      <tr><td>2</td><td>Assistant CRM Manager-Mackage</td><td>4</td><td>首发+置顶</td></tr>
+      <tr><td>3</td><td>零售市场活动资深专员</td><td>4</td><td>首发+置顶</td></tr>
+      <tr><td>4</td><td>抖音运营主管</td><td>3</td><td>首发+置顶</td></tr>
+      <tr><td>5</td><td>达人运营主管</td><td>3</td><td>首发+置顶</td></tr>
+      <tr><td>6</td><td>零售区域培训主管</td><td>2</td><td>首发</td></tr>
+      <tr><td>7</td><td>新媒体运营专员</td><td>2</td><td>首发</td></tr>
+      <tr><td>8</td><td>抖音电商运营专员</td><td>2</td><td>首发+置顶</td></tr>
+      <tr><td>9</td><td>生产专员</td><td>1</td><td>首发</td></tr>
+      <tr><td>10</td><td>证券事务专员/主管</td><td>1</td><td>首发</td></tr>
+    </table>
   </div>
 
   <!-- 四大分析维度 -->
@@ -151,54 +222,67 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);line-height:
     <div style="margin-bottom:20px">
       <div style="font-weight:600;font-size:14px;margin-bottom:8px;color:var(--accent)">① 发布职位对比</div>
       <p style="font-size:13px;color:var(--dim);line-height:1.7">
-        我方148个职位 vs 竞品109个职位（猎聘39个）。<strong>我方职位总量领先</strong>，但竞品仍有109个职位在招，说明客户招聘需求旺盛。
+        我方14个职位（王丛悦发布） vs 竞品109个职位（猎聘39个）。<strong>我方职位量严重不足</strong>。
         <br><br>
-        <strong>建议：</strong>重点对比猎聘39个职位中是否有我方未覆盖的岗位，尤其是服装/纺织行业的热门岗位（设计师、买手、陈列师等）。推动客户将更多职位同步发布到51job。
+        我方职位集中在：IT/电商/零售/市场，缺少设计师、买手、陈列师等服装行业核心岗位。
+        <br><br>
+        <strong>建议：</strong>获取竞品完整职位清单，向客户展示"竞品有但我方没有"的职位列表，推动同步发布。重点挖掘设计类、供应链类岗位。
       </p>
     </div>
 
     <div style="margin-bottom:20px">
       <div style="font-weight:600;font-size:14px;margin-bottom:8px;color:var(--accent)">② HR活跃度对比</div>
       <p style="font-size:13px;color:var(--dim);line-height:1.7">
-        竞品有<strong>11个HR</strong>在发布职位。需要获取这11个HR的名单，与我方消耗数据中"发布/再发布"的HR名单做对比。
+        竞品有<strong>11个HR</strong>在发布职位。我方仅<strong>1个HR</strong>（王丛悦）实际发布，另1个HR（顾佳玮）完全未使用。
         <br><br>
-        <strong>建议：</strong>识别在竞品活跃但在我方无动作的HR，安排叶竟仁逐一联系，了解未使用51job的原因（账号问题？操作习惯？效果认知？），并提供一对一培训。
+        <strong>关键发现：</strong>
       </p>
-      <div class="data-gap">
-        <strong>⚠️ 待补充：</strong>需要前程无忧内部消耗明细系统中"地素时尚"各账号的发布/再发布/道具使用记录。
-      </div>
+      <ul style="font-size:13px;color:var(--dim);line-height:1.8;margin:8px 0 8px 20px">
+        <li>王丛悦：全能型用户，发布+道具+电话沟通都会用 → 重点维护，推新品/新功能</li>
+        <li>顾佳玮：零活跃度 → 需要了解原因（账号未开通？不会用？无招聘需求？）</li>
+        <li>竞品11个HR → 我方理论上应有对应HR，需逐一识别和激活</li>
+      </ul>
+      <p style="font-size:13px;color:var(--dim);line-height:1.7">
+        <strong>建议：</strong>让叶竟仁联系顾佳玮了解未使用原因，提供一对一培训。同时向客户索要完整HR名单，对比我方账号开通情况。
+      </p>
     </div>
 
     <div style="margin-bottom:20px">
       <div style="font-weight:600;font-size:14px;margin-bottom:8px;color:var(--accent)">③ 道具消耗分析</div>
       <p style="font-size:13px;color:var(--dim);line-height:1.7">
-        当前道具使用仅<strong>1个</strong>，与148个职位、420无忧通消耗形成鲜明对比。说明HR大量使用基础发布功能，但几乎不使用道具（置顶、急聘、优先展示等）。
-        <br><br>
-        <strong>关键发现：</strong>
+        当前道具使用<strong>9次</strong>，全部为"职位置顶plus"。但道具价值大幅下降：
       </p>
       <ul style="font-size:13px;color:var(--dim);line-height:1.8;margin:8px 0 8px 20px">
-        <li>无忧通420已全部用完 → 基础发布需求饱和</li>
-        <li>道具仅1个 → 道具认知/使用意愿极低</li>
-        <li>效果好职位109个 → 有优质职位可以加码推广</li>
+        <li>1月：3次高价值置顶（每次50无忧通）→ 电商/运营新岗位</li>
+        <li>4月：3次低价值置顶（每次1无忧通）→ IT岗位重复刷新</li>
+        <li>5月：3次低价值置顶（每次1无忧通）→ 零售岗位重复刷新</li>
       </ul>
       <p style="font-size:13px;color:var(--dim);line-height:1.7">
-        <strong>建议：</strong>向客户展示"道具使用率 vs 招聘效果"的数据对比案例。挑选3-5个关键职位做道具试用，用数据证明道具对简历投递量/质量的提升。
+        <strong>关键问题：</strong>道具策略从"打新岗位"退化为"常规刷新"，说明HR对道具价值认知下降，或者招聘预算收缩。
+        <br><br>
+        <strong>建议：</strong>
       </p>
+      <ul style="font-size:13px;color:var(--dim);line-height:1.8;margin:8px 0 8px 20px">
+        <li>向王丛悦展示"置顶前后简历投递量对比"数据</li>
+        <li>推荐"智能邀约plus""超级曝光plus"等新型道具</li>
+        <li>针对服装行业旺季（金三银四、金九银十）提前规划道具投放</li>
+      </ul>
     </div>
 
     <div>
       <div style="font-weight:600;font-size:14px;margin-bottom:8px;color:var(--accent)">④ 消耗持续性分析</div>
       <p style="font-size:13px;color:var(--dim);line-height:1.7">
-        需要分析我方消耗数据中，各HR/职位在2025年各月的消耗趋势。识别：
+        按月消耗趋势：1月高峰(12次) → 2月低谷(2次) → 3-4月平稳(4-5次) → 5月回升(11次)。
       </p>
       <ul style="font-size:13px;color:var(--dim);line-height:1.8;margin:8px 0 8px 20px">
-        <li>哪些HR消耗稳定（高粘性用户）→ 重点维护，推荐道具</li>
-        <li>哪些HR消耗波动大（间歇性使用）→ 了解原因，提供使用节奏建议</li>
-        <li>哪些职位长期消耗高但效果一般 → 建议优化职位描述或调整投放策略</li>
+        <li><strong>1月高峰</strong>：春节前后招聘旺季，大量新岗位发布+高价值道具投放</li>
+        <li><strong>2月低谷</strong>：春节假期，招聘暂停</li>
+        <li><strong>3-4月平稳</strong>：常规招聘，消耗稳定</li>
+        <li><strong>5月回升</strong>：夏招/秋招准备期，职位发布量增加</li>
       </ul>
-      <div class="data-gap">
-        <strong>⚠️ 待补充：</strong>需要消耗明细按月/按HR的拆分数据，才能做持续性分析。
-      </div>
+      <p style="font-size:13px;color:var(--dim);line-height:1.7">
+        <strong>建议：</strong>根据季节性规律，在6-7月（秋招准备期）和9-10月（金三银四复盘期）主动触达，提前规划发布坑位和道具预算。
+      </p>
     </div>
   </div>
 
@@ -209,36 +293,43 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);line-height:
       <li>
         <div class="action-num">1</div>
         <div class="action-content">
-          <div class="action-title">获取内部消耗明细</div>
-          <div class="action-desc">向小财或小客数据系统申请"地素时尚"2025年1-6月消耗明细（按HR/按职位/按月份），获取发布/再发布/道具使用的完整记录。</div>
+          <div class="action-title">激活顾佳玮账号</div>
+          <div class="action-desc">联系顾佳玮了解零使用原因（账号问题？操作障碍？无需求？），提供一对一 onboarding 培训。目标：让顾佳玮在2周内完成首次职位发布。</div>
         </div>
       </li>
       <li>
         <div class="action-num">2</div>
         <div class="action-content">
-          <div class="action-title">对比竞品职位清单</div>
-          <div class="action-desc">通过小芳（Web验证）获取地素时尚在猎聘的39个在招职位清单，与我方148个职位做对比，找出"竞品独有"职位清单。</div>
+          <div class="action-title">扩大HR覆盖</div>
+          <div class="action-desc">向客户获取完整HR名单，识别在竞品活跃但在我方无账号的HR。建议新增3-5个账号，覆盖设计、供应链、门店运营等岗位招聘负责人。</div>
         </div>
       </li>
       <li>
         <div class="action-num">3</div>
         <div class="action-content">
-          <div class="action-title">道具推广试点</div>
-          <div class="action-desc">挑选3-5个效果好但竞争激烈的重点职位（如设计总监、买手经理），提供道具试用，1周后对比简历投递量变化，形成案例。</div>
+          <div class="action-title">道具价值重塑</div>
+          <div class="action-desc">向王丛悦展示"职位置顶plus前后效果对比"数据（简历投递量、浏览量）。推荐"智能邀约plus"等新道具，提供3个职位免费试用。</div>
         </div>
       </li>
       <li>
         <div class="action-num">4</div>
         <div class="action-content">
-          <div class="action-title">无忧通续费+增购提案</div>
-          <div class="action-desc">无忧通已用完（420/420），需在会员到期前（2027-04-02，还有303天）提前规划续费。结合道具推广成功案例，提出"无忧通续费+道具增购"组合方案。</div>
+          <div class="action-title">竞品职位对标</div>
+          <div class="action-desc">通过小芳获取地素时尚在猎聘的完整职位清单，与我方14个职位对比，输出"竞品独有职位清单"，推动客户同步发布到51job。</div>
         </div>
       </li>
       <li>
         <div class="action-num">5</div>
         <div class="action-content">
-          <div class="action-title">HR覆盖扩大</div>
-          <div class="action-desc">当前免费账号仅3个，而竞品有11个HR在发布。建议增加账号数至8-10个，覆盖更多招聘HR，并提供新账号 onboarding 培训。</div>
+          <div class="action-title">续约前置沟通</div>
+          <div class="action-desc">会员2027-04-02到期（还有约10个月）。结合道具成功案例和HR覆盖扩大计划，在2026-Q4提前启动续约谈判，提出"账号增购+道具包"组合方案。</div>
+        </div>
+      </li>
+      <li>
+        <div class="action-num">6</div>
+        <div class="action-content">
+          <div class="action-title">季节性营销</div>
+          <div class="action-desc">6-7月触达：秋招准备期，推"校园招聘+社会招聘"组合方案；9-10月触达：金三银四复盘，推"明年招聘计划预谈"。</div>
         </div>
       </li>
     </ul>
@@ -249,16 +340,17 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);line-height:
     <div class="card-title">📅 关键时间节点</div>
     <table class="compare-table">
       <tr><th>时间</th><th>事件</th><th>行动</th></tr>
-      <tr><td>2026-06（现在）</td><td>无忧通已用完</td><td>紧急确认是否需要临时增购</td></tr>
-      <tr><td>2026-Q3</td><td>道具推广试点期</td><td>完成3-5个职位道具试用+效果报告</td></tr>
-      <tr><td>2026-Q4</td><td>续约谈判窗口</td><td>基于道具成功案例，推组合方案</td></tr>
-      <tr><td>2027-04-02</td><td>会员到期</td><td>确保续约完成，防止流失</td></tr>
+      <tr><td>2026-06（现在）</td><td>顾佳玮零使用</td><td>紧急联系，激活账号</td></tr>
+      <tr><td>2026-Q3</td><td>秋招准备期</td><td>推"校招+社招"组合方案</td></tr>
+      <tr><td>2026-Q4</td><td>续约谈判窗口</td><td>基于道具案例+HR覆盖扩大，推组合方案</td></tr>
+      <tr><td>2027-01-02</td><td>金三银四预热</td><td>提前规划道具预算</td></tr>
+      <tr><td>2027-04-02</td><td>会员到期</td><td>确保续约完成</td></tr>
     </table>
   </div>
 
   <div class="memo-box">
     <strong>📝 更新记录</strong><br>
-    2026-06-08 创建本跟进计划 | 下次更新：获取消耗明细后补充HR维度分析
+    2026-06-08 基于1-5月网才消耗明细重新生成 | 下次更新：获取竞品职位清单后补充①维度分析
   </div>
 
 </div>
