@@ -116,7 +116,7 @@ w('</head>')
 w('<body>')
 
 # Header
-w(f'<div class="header"><h1>📊 项目营销十部 - 客户明细与跟进策略</h1><p>数据更新时间：2026-06-03 | 总客户：183家 | 收费{stats["收费客户"]} | 待续{stats["待续客户"]} | 流失{stats["流失客户"]} | 历史{stats["历史客户"]} | 0客户{stats["0客户"]}</p></div>')
+w(f'<div class="header"><h1>📊 项目营销十部 - 客户明细与跟进策略</h1><p>数据更新时间：2026-06-08 | 总客户：364家 | 收费{stats["收费客户"]} | 待续{stats["待续客户"]} | 流失{stats["流失客户"]} | 历史{stats["历史客户"]} | 0客户{stats["0客户"]}</p></div>')
 w('<div class="container">')
 
 # Alert
