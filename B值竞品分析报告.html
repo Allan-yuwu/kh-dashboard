@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>项目营销十部 B值（竞品投入）分析报告</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif; background:#f0f2f5; color:#1a1a2e; padding:20px; }
+.container { max-width:1500px; margin:0 auto; }
+.header { background:linear-gradient(135deg,#1a1a2e,#16213e,#0f3460); color:white; padding:36px 40px; border-radius:16px; margin-bottom:24px; }
+.header h1 { font-size:26px; margin-bottom:6px; }
+.header .sub { opacity:0.65; font-size:13px; line-height:1.6; }
+.header .date { opacity:0.45; font-size:11px; margin-top:10px; }
+.grid-4 { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:24px; }
+.grid-2 { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin-bottom:24px; }
+.grid-3 { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+.card { background:white; border-radius:12px; padding:24px; box-shadow:0 2px 8px rgba(0,0,0,0.05); margin-bottom:24px; }
+.card h2 { font-size:17px; margin-bottom:14px; color:#16213e; border-bottom:2px solid #eee; padding-bottom:10px; }
+.card h3 { font-size:15px; margin:20px 0 10px; color:#333; border-left:3px solid #2563eb; padding-left:10px; }
+.card .section-desc { color:#888; font-size:12px; margin-bottom:12px; }
+.kpi { text-align:center; }
+.kpi .val { font-size:30px; font-weight:700; margin:6px 0; }
+.kpi .lbl { font-size:12px; color:#888; }
+.kpi .sub { font-size:11px; color:#aaa; margin-top:3px; }
+.pos { color:#16a34a; }
+.neg { color:#dc2626; }
+.warn { color:#f59e0b; }
+table { width:100%; border-collapse:collapse; font-size:13px; }
+th { background:#f8f9fa; padding:9px 10px; text-align:left; font-weight:600; border-bottom:2px solid #e0e0e0; white-space:nowrap; font-size:12px; }
+td { padding:7px 10px; border-bottom:1px solid #f0f0f0; }
+tr:hover { background:#f8f9ff; }
+tr.row-total { background:#f0f4ff; font-weight:700; border-top:2px solid #2563eb; }
+.badge { display:inline-block; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600; }
+.bg-red { background:#fee2e2; color:#dc2626; }
+.bg-green { background:#dcfce7; color:#16a34a; }
+.bg-yellow { background:#fef3c7; color:#d97706; }
+.bg-blue { background:#dbeafe; color:#2563eb; }
+.bg-gray { background:#f3f4f6; color:#6b7280; }
+.bg-purple { background:#f3e8ff; color:#9333ea; }
+.insight { padding:14px 16px; border-radius:8px; margin:12px 0; font-size:13px; line-height:1.7; }
+.insight-red { background:#fff5f5; border-left:4px solid #dc2626; }
+.insight-yellow { background:#fffbeb; border-left:4px solid #f59e0b; }
+.insight-green { background:#f0fdf4; border-left:4px solid #16a34a; }
+.insight-blue { background:#f0f7ff; border-left:4px solid #2563eb; }
+.tag { display:inline-block; padding:1px 6px; border-radius:4px; font-size:11px; background:#f0f0f0; margin:1px; }
+.tag-ok { background:#dcfce7; color:#16a34a; }
+.tag-warn { background:#fef3c7; color:#d97706; }
+.editable { background:#fffdf0; border:1px dashed #d4c88c; color:#999; font-style:italic; min-width:120px; }
+.metric-highlight { font-weight:700; font-size:14px; }
+tr.sales-sep { background:#f0f4ff; }
+tr.sales-sep td { font-weight:700; color:#2563eb; padding:8px 10px; font-size:13px; }
+.space-big { background:#fff5f5; }
+.space-mid { background:#fffbeb; }
+.space-small { background:#f0fdf4; }
+.space-b0 { background:#f8f9fa; }
+.client-list { font-size:12px; line-height:1.8; }
+.client-item { display:flex; justify-content:space-between; align-items:center; padding:3px 0; border-bottom:1px dashed #eee; }
+.client-item:last-child { border-bottom:none; }
+.sales-detail { background:#fafafa; border-radius:8px; padding:12px; margin:8px 0; }
+.sales-detail-name { font-weight:700; color:#16213e; font-size:14px; margin-bottom:6px; }
+@media(max-width:900px){ .grid-4,.grid-2,.grid-3{ grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<div class="container">
+<div style="background:#16213e;padding:10px 20px;text-align:center"><a href="项目营销十部客户明细.html" style="display:inline-block;padding:6px 16px;background:rgba(255,255,255,0.1);color:#fff;text-decoration:none;border-radius:20px;font-size:13px;border:1px solid rgba(255,255,255,0.2)">← 返回客户明细看板</a></div>
+<div class="header">
+  <h1>📊 项目营销十部 B值（竞品投入）分析报告</h1>
+  <div class="sub">B值 = 客户在猎聘/智联/Boss上的投入 = <strong>可增长空间</strong> ｜ 我方投入 = 网站25A ｜ 主战场判定：B值（可增长空间总量）× 可增长空间大的客户数</div>
+  <div class="date">数据来源：B值明细6.8-项目营销十部.xlsx ｜ 生成时间：2026-06-08 20:10 ｜ 客户数：183家</div>
+</div>
+
+<div class="grid-4">
+  <div class="card kpi"><div class="lbl">总盘子</div><div class="val">7,041,327</div><div class="sub">竞品B值 + 我方网站25A</div></div>
+  <div class="card kpi"><div class="lbl">B值（可增长空间总量）</div><div class="val">2,679,736</div><div class="sub">38.1% · 可争取金额</div></div>
+  <div class="card kpi"><div class="lbl">我方网站25A</div><div class="val">4,361,591</div><div class="sub">61.9% · 已占领份额</div></div>
+  <div class="card kpi"><div class="lbl">客户分布</div><div class="val">14<span style="font-size:16px">/</span>133<span style="font-size:16px">/</span>50</div><div class="sub">B50+ / 有B值 / B0</div></div>
+</div>
+
+<div class="insight insight-red">
+  <strong>🚨 核心发现：</strong>
+  团队可增长空间总量 <strong>2,679,736</strong>。
+  <strong>B20</strong> 是团队主战场（B值 836,012，空间大客户 16家）。
+  B50+ 单客可增长空间最大（均83,074），但仅14家；
+  B20 客户数多（27家）、覆盖面广，是团队<strong>"以量取胜"</strong>的核心战场。
+</div><div class="card">
+  <h2>📈 战场分析 — B值 = 可增长空间</h2>
+  <p class="section-desc">空间大小定义：大=我方占比&lt;50% ｜ 中=我方占比50-70% ｜ 小=我方占比&gt;70% ｜ B0=无竞品投入</p>
+  <table>
+    <tr>
+      <th>B值段</th><th>客户数</th>
+      <th>B值（可增长<br>空间总量）</th><th>占全段</th>
+      <th>市场占比</th>
+      <th colspan="2">🔴 空间大<br>&lt;50%</th>
+      <th colspan="2">🟡 空间中等<br>50-70%</th>
+      <th colspan="2">🟢 空间小<br>&gt;70%</th>
+      <th>B0</th>
+      <th>📌 战场判断</th>
+    </tr><tr class="space-big">
+      <td><span class="badge" style="font-weight:700">B50+</span></td>
+      <td><strong>14</strong>家</td>
+      <td class="metric-highlight">1,163,032</td>
+      <td>43.4%</td>
+      <td><span class="badge bg-red">49%</span></td>
+      <td><strong>8</strong>家</td>
+      <td>676,400</td>
+      <td><strong>4</strong>家</td>
+      <td>298,536</td>
+      <td><strong>2</strong>家</td>
+      <td>188,096</td>
+      <td>0家</td>
+      <td><span class="badge bg-red">🔴 空间大·重点攻</span></td>
+    </tr><tr class="space-mid" style="background:#fffdf0">
+      <td><span class="badge" style="font-weight:700">B20 ⭐主战场</span></td>
+      <td><strong>27</strong>家</td>
+      <td class="metric-highlight">836,012</td>
+      <td>31.2%</td>
+      <td><span class="badge bg-yellow">57%</span></td>
+      <td><strong>16</strong>家</td>
+      <td>518,616</td>
+      <td><strong>6</strong>家</td>
+      <td>178,076</td>
+      <td><strong>5</strong>家</td>
+      <td>139,320</td>
+      <td>0家</td>
+      <td><span class="badge bg-yellow">🟡 空间中等·有机会</span></td>
+    </tr><tr class="space-mid">
+      <td><span class="badge" style="font-weight:700">B10</span></td>
+      <td><strong>21</strong>家</td>
+      <td class="metric-highlight">352,108</td>
+      <td>13.1%</td>
+      <td><span class="badge bg-yellow">64%</span></td>
+      <td><strong>12</strong>家</td>
+      <td>204,640</td>
+      <td><strong>3</strong>家</td>
+      <td>58,336</td>
+      <td><strong>6</strong>家</td>
+      <td>89,132</td>
+      <td>0家</td>
+      <td><span class="badge bg-yellow">🟡 空间中等·有机会</span></td>
+    </tr><tr class="space-mid">
+      <td><span class="badge" style="font-weight:700">B5</span></td>
+      <td><strong>22</strong>家</td>
+      <td class="metric-highlight">184,512</td>
+      <td>6.9%</td>
+      <td><span class="badge bg-yellow">65%</span></td>
+      <td><strong>13</strong>家</td>
+      <td>103,240</td>
+      <td><strong>4</strong>家</td>
+      <td>37,336</td>
+      <td><strong>5</strong>家</td>
+      <td>43,936</td>
+      <td>0家</td>
+      <td><span class="badge bg-yellow">🟡 空间中等·有机会</span></td>
+    </tr><tr class="space-small">
+      <td><span class="badge" style="font-weight:700">B2</span></td>
+      <td><strong>30</strong>家</td>
+      <td class="metric-highlight">135,508</td>
+      <td>5.1%</td>
+      <td><span class="badge bg-green">82%</span></td>
+      <td><strong>18</strong>家</td>
+      <td>77,908</td>
+      <td><strong>1</strong>家</td>
+      <td>4,800</td>
+      <td><strong>11</strong>家</td>
+      <td>52,800</td>
+      <td>0家</td>
+      <td><span class="badge bg-green">🟢 空间小·防守</span></td>
+    </tr><tr class="space-small">
+      <td><span class="badge" style="font-weight:700">B0+</span></td>
+      <td><strong>19</strong>家</td>
+      <td class="metric-highlight">8,564</td>
+      <td>0.3%</td>
+      <td><span class="badge bg-green">93%</span></td>
+      <td><strong>16</strong>家</td>
+      <td>7,092</td>
+      <td><strong>0</strong>家</td>
+      <td>0</td>
+      <td><strong>3</strong>家</td>
+      <td>1,472</td>
+      <td>0家</td>
+      <td><span class="badge bg-green">🟢 空间小·防守</span></td>
+    </tr><tr class="space-b0">
+      <td><span class="badge" style="font-weight:700">B0</span></td>
+      <td><strong>50</strong>家</td>
+      <td class="metric-highlight">0</td>
+      <td>0.0%</td>
+      <td><span class="badge bg-green">100%</span></td>
+      <td><strong>0</strong>家</td>
+      <td>0</td>
+      <td><strong>0</strong>家</td>
+      <td>0</td>
+      <td><strong>0</strong>家</td>
+      <td>0</td>
+      <td>50家</td>
+      <td><span class="badge bg-green">🟢 空间小·防守</span></td>
+    </tr><tr class="row-total">
+      <td><strong>团队合计</strong></td>
+      <td><strong>183</strong></td>
+      <td><strong>2,679,736</strong></td>
+      <td>100%</td>
+      <td><strong>61.9%</strong></td>
+      <td><strong>83</strong></td>
+      <td><strong>1,587,896</strong></td>
+      <td><strong>18</strong></td>
+      <td><strong>577,084</strong></td>
+      <td><strong>32</strong></td>
+      <td><strong>514,756</strong></td>
+      <td><strong>50</strong></td>
+      <td>—</td>
+    </tr></table><div class="insight insight-blue" style="margin-top:16px;">
+  <strong>🎯 主战场判定：B20</strong><br>
+  B值（可增长空间总量）<strong>836,012</strong>（占全团队 31.2%），可增长空间大的客户 <strong>16家</strong>（我方占比&lt;50%）。<br>
+  虽然 B50+ 单客可增长空间最大（均83,074），但仅14家；
+  B20 客户数多（27家）、空间大客户多（16家），是团队<strong>"以量取胜"</strong>的核心战场。<br>
+  <strong>战略建议</strong>：B20 主战场攻坚 + B50+ 重点突破（单客价值高，值得投入专人跟进）。
+</div>
+</div><div class="card">
+  <h2>🎯 B50+ 各销售战场分析（竞品投入 ≥ 5万）</h2>
+  <p class="section-desc">横向对比各销售在 B50+ 段的可增长空间分布</p><table>
+    <tr>
+      <th>销售</th><th>客户数</th><th>B值（可增长空间）</th><th>网站25A</th><th>份额</th>
+      <th colspan="2">🔴 空间大 &lt;50%</th><th colspan="2">🟡 空间中等 50-70%</th><th colspan="2">🟢 空间小 &gt;70%</th>
+      <th>📌 战场判断</th>
+    </tr><tr>
+      <td><strong>赵悦</strong></td>
+      <td>5家</td>
+      <td>453,776</td>
+      <td>279,009</td>
+      <td><span class="badge bg-red">38.1%</span></td>
+      <td><strong>3</strong>家</td><td>297,600</td>
+      <td><strong>2</strong>家</td><td>156,176</td>
+      <td><strong>0</strong>家</td><td>0</td>
+      <td><span class="badge bg-red">🔴 空间大·需收复</span></td>
+    </tr><tr>
+      <td><strong>李根</strong></td>
+      <td>3家</td>
+      <td>194,348</td>
+      <td>375,991</td>
+      <td><span class="badge bg-yellow">65.9%</span></td>
+      <td><strong>0</strong>家</td><td>0</td>
+      <td><strong>2</strong>家</td><td>142,360</td>
+      <td><strong>1</strong>家</td><td>51,988</td>
+      <td><span class="badge bg-yellow">🟡 空间中等·有机会</span></td>
+    </tr><tr>
+      <td><strong>叶竟仁</strong></td>
+      <td>4家</td>
+      <td>323,000</td>
+      <td>90,700</td>
+      <td><span class="badge bg-red">21.9%</span></td>
+      <td><strong>4</strong>家</td><td>323,000</td>
+      <td><strong>0</strong>家</td><td>0</td>
+      <td><strong>0</strong>家</td><td>0</td>
+      <td><span class="badge bg-red">🔴 空间大·需收复</span></td>
+    </tr><tr>
+      <td><strong>黄盼</strong></td>
+      <td>2家</td>
+      <td>191,908</td>
+      <td>359,430</td>
+      <td><span class="badge bg-yellow">65.2%</span></td>
+      <td><strong>1</strong>家</td><td>55,800</td>
+      <td><strong>0</strong>家</td><td>0</td>
+      <td><strong>1</strong>家</td><td>136,108</td>
+      <td><span class="badge bg-yellow">🟡 空间中等·有机会</span></td>
+    </tr><tr class="row-total">
+      <td><strong>团队合计</strong></td>
+      <td><strong>14</strong></td>
+      <td><strong>1,163,032</strong></td>
+      <td><strong>1,105,130</strong></td>
+      <td><strong>48.7%</strong></td>
+      <td><strong>8</strong></td><td><strong>676,400</strong></td>
+      <td><strong>4</strong></td><td><strong>298,536</strong></td>
+      <td><strong>2</strong></td><td><strong>188,096</strong></td>
+      <td>—</td>
+    </tr></table></div><div class="card">
+  <h2>📈 B20 各销售战场分析（竞品投入 2-5万）</h2>
+  <p class="section-desc">横向对比各销售在 B20 段的可增长空间分布</p><table>
+    <tr>
+      <th>销售</th><th>客户数</th><th>B值（可增长空间）</th><th>网站25A</th><th>份额</th>
+      <th colspan="2">🔴 空间大 &lt;50%</th><th colspan="2">🟡 空间中等 50-70%</th><th colspan="2">🟢 空间小 &gt;70%</th>
+      <th>📌 战场判断</th>
+    </tr><tr>
+      <td><strong>赵悦</strong></td>
+      <td>7家</td>
+      <td>213,956</td>
+      <td>380,309</td>
+      <td><span class="badge bg-yellow">64.0%</span></td>
+      <td><strong>2</strong>家</td><td>73,104</td>
+      <td><strong>4</strong>家</td><td>107,852</td>
+      <td><strong>1</strong>家</td><td>33,000</td>
+      <td><span class="badge bg-yellow">🟡 空间中等·有机会</span></td>
+    </tr><tr>
+      <td><strong>李根</strong></td>
+      <td>4家</td>
+      <td>146,772</td>
+      <td>507,910</td>
+      <td><span class="badge bg-green">77.6%</span></td>
+      <td><strong>1</strong>家</td><td>37,800</td>
+      <td><strong>1</strong>家</td><td>47,712</td>
+      <td><strong>2</strong>家</td><td>61,260</td>
+      <td><span class="badge bg-green">🟢 空间小·防守</span></td>
+    </tr><tr>
+      <td><strong>叶竟仁</strong></td>
+      <td>7家</td>
+      <td>228,176</td>
+      <td>43,800</td>
+      <td><span class="badge bg-red">16.1%</span></td>
+      <td><strong>7</strong>家</td><td>228,176</td>
+      <td><strong>0</strong>家</td><td>0</td>
+      <td><strong>0</strong>家</td><td>0</td>
+      <td><span class="badge bg-red">🔴 空间大·需收复</span></td>
+    </tr><tr>
+      <td><strong>黄盼</strong></td>
+      <td>9家</td>
+      <td>247,108</td>
+      <td>192,400</td>
+      <td><span class="badge bg-red">43.8%</span></td>
+      <td><strong>6</strong>家</td><td>179,536</td>
+      <td><strong>1</strong>家</td><td>22,512</td>
+      <td><strong>2</strong>家</td><td>45,060</td>
+      <td><span class="badge bg-red">🔴 空间大·需收复</span></td>
+    </tr><tr class="row-total">
+      <td><strong>团队合计</strong></td>
+      <td><strong>27</strong></td>
+      <td><strong>836,012</strong></td>
+      <td><strong>1,124,419</strong></td>
+      <td><strong>57.4%</strong></td>
+      <td><strong>16</strong></td><td><strong>518,616</strong></td>
+      <td><strong>6</strong></td><td><strong>178,076</strong></td>
+      <td><strong>5</strong></td><td><strong>139,320</strong></td>
+      <td>—</td>
+    </tr></table></div><div class="card">
+  <h2>🎯 B50+ 客户深析（竞品投入 ≥ 5万）— 按销售排序</h2>
+  <table>
+    <tr>
+      <th>客户名称</th><th>销售</th><th>B值</th><th>网站25A</th><th>差额</th><th>份额</th>
+      <th>网站26A</th><th>历史累计</th><th>总职位</th>
+      <th style="background:#fffdf0">📝 情况说明</th>
+      <th style="background:#fffdf0">🎯 下步动作</th>
+    </tr><tr class="sales-sep"><td colspan="11">▸ 叶竟仁（4家 B50+ · 可增长空间 323,000）</td></tr><tr>
+      <td><strong>地素时尚股份有限公司</strong></td><td>叶竟仁</td>
+      <td>125,536</td><td>15,400</td>
+      <td class="neg">-110,136</td>
+      <td><span class="badge bg-red">10.9%</span></td>
+      <td>15,010</td><td>325,177</td><td>127</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>上海罗莱生活科技有限公司</strong></td><td>叶竟仁</td>
+      <td>69,776</td><td>32,300</td>
+      <td class="neg">-37,476</td>
+      <td><span class="badge bg-yellow">31.6%</span></td>
+      <td>0</td><td>1,010,808</td><td>102</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>上海朗阁教育科技股份有限公司</strong></td><td>叶竟仁</td>
+      <td>65,288</td><td>43,000</td>
+      <td class="neg">-22,288</td>
+      <td><span class="badge bg-yellow">39.7%</span></td>
+      <td>0</td><td>1,096,348</td><td>66</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>上海盈石商务咨询有限公司</strong></td><td>叶竟仁</td>
+      <td>62,400</td><td>0</td>
+      <td class="neg">-62,400</td>
+      <td><span class="badge bg-red">0.0%</span></td>
+      <td>0</td><td>0</td><td>209</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr class="sales-sep"><td colspan="11">▸ 李根（3家 B50+ · 可增长空间 194,348）</td></tr><tr>
+      <td><strong>远景动力技术（江苏）有限公司</strong></td><td>李根</td>
+      <td>83,072</td><td>123,358</td>
+      <td class="pos">+40,286</td>
+      <td><span class="badge bg-yellow">59.8%</span></td>
+      <td>4,240</td><td>123,200</td><td>115</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>浙江天正电气股份有限公司</strong></td><td>李根</td>
+      <td>59,288</td><td>99,317</td>
+      <td class="pos">+40,029</td>
+      <td><span class="badge bg-green">62.6%</span></td>
+      <td>0</td><td>561,212</td><td>125</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>益科德（上海）有限公司</strong></td><td>李根</td>
+      <td>51,988</td><td>153,316</td>
+      <td class="pos">+101,328</td>
+      <td><span class="badge bg-green">74.7%</span></td>
+      <td>0</td><td>603,389</td><td>145</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr class="sales-sep"><td colspan="11">▸ 赵悦（5家 B50+ · 可增长空间 453,776）</td></tr><tr>
+      <td><strong>飞利浦（中国）投资有限公司</strong></td><td>赵悦</td>
+      <td>115,200</td><td>41,320</td>
+      <td class="neg">-73,880</td>
+      <td><span class="badge bg-red">26.4%</span></td>
+      <td>22,660</td><td>2,026,992</td><td>270</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>上海良信电器股份有限公司</strong></td><td>赵悦</td>
+      <td>103,008</td><td>120,540</td>
+      <td class="pos">+17,532</td>
+      <td><span class="badge bg-yellow">53.9%</span></td>
+      <td>202,700</td><td>1,265,068</td><td>216</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>钛和检测认证集团股份有限公司</strong></td><td>赵悦</td>
+      <td>91,200</td><td>47,549</td>
+      <td class="neg">-43,651</td>
+      <td><span class="badge bg-yellow">34.3%</span></td>
+      <td>43,494</td><td>199,990</td><td>137</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>钛和检测认证集团有限公司</strong></td><td>赵悦</td>
+      <td>91,200</td><td>0</td>
+      <td class="neg">-91,200</td>
+      <td><span class="badge bg-red">0.0%</span></td>
+      <td>0</td><td>99,980</td><td>137</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>赛诺菲（中国）投资有限公司上海分公司</strong></td><td>赵悦</td>
+      <td>53,168</td><td>69,600</td>
+      <td class="pos">+16,432</td>
+      <td><span class="badge bg-yellow">56.7%</span></td>
+      <td>64,550</td><td>1,462,237</td><td>175</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr class="sales-sep"><td colspan="11">▸ 黄盼（2家 B50+ · 可增长空间 191,908）</td></tr><tr>
+      <td><strong>伊顿（中国）投资有限公司</strong></td><td>黄盼</td>
+      <td>136,108</td><td>359,430</td>
+      <td class="pos">+223,322</td>
+      <td><span class="badge bg-green">72.5%</span></td>
+      <td>108,880</td><td>2,921,147</td><td>221</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>倍乐生商贸（中国）有限公司</strong></td><td>黄盼</td>
+      <td>55,800</td><td>0</td>
+      <td class="neg">-55,800</td>
+      <td><span class="badge bg-red">0.0%</span></td>
+      <td>0</td><td>2,786,769</td><td>58</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr></table></div><div class="card">
+  <h2>📈 B20 客户深析（竞品投入 2-5万）— 按销售排序</h2>
+  <table>
+    <tr>
+      <th>客户名称</th><th>销售</th><th>B值</th><th>网站25A</th><th>差额</th><th>份额</th>
+      <th>网站26A</th><th>历史累计</th><th>总职位</th>
+      <th style="background:#fffdf0">📝 情况说明</th>
+      <th style="background:#fffdf0">🎯 下步动作</th>
+    </tr><tr class="sales-sep"><td colspan="11">▸ 叶竟仁（7家 B20 · 可增长空间 228,176）</td></tr><tr>
+      <td><strong>元亨祥集团有限公司</strong></td><td>叶竟仁</td>
+      <td>44,304</td><td>0</td>
+      <td class="neg">-44,304</td>
+      <td><span class="badge bg-red">0.0%</span></td>
+      <td>0</td><td>493,400</td><td>57</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>国药口腔医疗器械（上海）有限公司</strong></td><td>叶竟仁</td>
+      <td>43,200</td><td>28,000</td>
+      <td class="neg">-15,200</td>
+      <td><span class="badge bg-yellow">39.3%</span></td>
+      <td>0</td><td>111,900</td><td>76</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>上海西井科技股份有限公司</strong></td><td>叶竟仁</td>
+      <td>38,400</td><td>0</td>
+      <td class="neg">-38,400</td>
+      <td><span class="badge bg-red">0.0%</span></td>
+      <td>0</td><td>99,472</td><td>1</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>劲霸男装（上海）有限公司</strong></td><td>叶竟仁</td>
+      <td>29,536</td><td>0</td>
+      <td class="neg">-29,536</td>
+      <td><span class="badge bg-red">0.0%</span></td>
+      <td>0</td><td>917,739</td><td>55</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>上海诠视传感技术有限公司</strong></td><td>叶竟仁</td>
+      <td>24,736</td><td>0</td>
+      <td class="neg">-24,736</td>
+      <td><span class="badge bg-red">0.0%</span></td>
+      <td>0</td><td>0</td><td>25</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>国耀圣康医药有限公司</strong></td><td>叶竟仁</td>
+      <td>24,000</td><td>0</td>
+      <td class="neg">-24,000</td>
+      <td><span class="badge bg-red">0.0%</span></td>
+      <td>0</td><td>409,705</td><td>142</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>国耀圣康医药科技有限公司</strong></td><td>叶竟仁</td>
+      <td>24,000</td><td>15,800</td>
+      <td class="neg">-8,200</td>
+      <td><span class="badge bg-yellow">39.7%</span></td>
+      <td>0</td><td>10,300</td><td>142</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr class="sales-sep"><td colspan="11">▸ 李根（4家 B20 · 可增长空间 146,772）</td></tr><tr>
+      <td><strong>上海依视路光学有限公司</strong></td><td>李根</td>
+      <td>47,712</td><td>67,000</td>
+      <td class="pos">+19,288</td>
+      <td><span class="badge bg-yellow">58.4%</span></td>
+      <td>69,000</td><td>538,558</td><td>81</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>思爱普（中国）有限公司</strong></td><td>李根</td>
+      <td>39,872</td><td>343,350</td>
+      <td class="pos">+303,478</td>
+      <td><span class="badge bg-green">89.6%</span></td>
+      <td>125,800</td><td>2,272,355</td><td>116</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>陆逊梯卡（中国）投资有限公司</strong></td><td>李根</td>
+      <td>37,800</td><td>6,000</td>
+      <td class="neg">-31,800</td>
+      <td><span class="badge bg-red">13.7%</span></td>
+      <td>0</td><td>612,500</td><td>34</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>捷普科技（上海）有限公司</strong></td><td>李根</td>
+      <td>21,388</td><td>91,560</td>
+      <td class="pos">+70,172</td>
+      <td><span class="badge bg-green">81.1%</span></td>
+      <td>0</td><td>2,503,637</td><td>133</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr class="sales-sep"><td colspan="11">▸ 赵悦（7家 B20 · 可增长空间 213,956）</td></tr><tr>
+      <td><strong>西门子医疗系统有限公司</strong></td><td>赵悦</td>
+      <td>43,200</td><td>35,090</td>
+      <td class="neg">-8,110</td>
+      <td><span class="badge bg-yellow">44.8%</span></td>
+      <td>0</td><td>133,340</td><td>162</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>上海皓元医药股份有限公司</strong></td><td>赵悦</td>
+      <td>33,000</td><td>120,324</td>
+      <td class="pos">+87,324</td>
+      <td><span class="badge bg-green">78.5%</span></td>
+      <td>0</td><td>488,284</td><td>52</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>钛和认证（上海）有限公司</strong></td><td>赵悦</td>
+      <td>29,904</td><td>15,020</td>
+      <td class="neg">-14,884</td>
+      <td><span class="badge bg-yellow">33.4%</span></td>
+      <td>0</td><td>0</td><td>44</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>上海至纯系统集成有限公司</strong></td><td>赵悦</td>
+      <td>29,556</td><td>55,900</td>
+      <td class="pos">+26,344</td>
+      <td><span class="badge bg-green">65.4%</span></td>
+      <td>0</td><td>172,300</td><td>55</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>昕诺飞（中国）投资有限公司</strong></td><td>赵悦</td>
+      <td>29,168</td><td>62,900</td>
+      <td class="pos">+33,732</td>
+      <td><span class="badge bg-green">68.3%</span></td>
+      <td>55,480</td><td>486,990</td><td>94</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>柯马（上海）工程有限公司</strong></td><td>赵悦</td>
+      <td>28,800</td><td>60,000</td>
+      <td class="pos">+31,200</td>
+      <td><span class="badge bg-green">67.6%</span></td>
+      <td>0</td><td>635,220</td><td>72</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>上海金地物业服务有限公司</strong></td><td>赵悦</td>
+      <td>20,328</td><td>31,075</td>
+      <td class="pos">+10,747</td>
+      <td><span class="badge bg-green">60.5%</span></td>
+      <td>0</td><td>401,240</td><td>143</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr class="sales-sep"><td colspan="11">▸ 黄盼（9家 B20 · 可增长空间 247,108）</td></tr><tr>
+      <td><strong>华程国际旅行社集团有限公司</strong></td><td>黄盼</td>
+      <td>39,600</td><td>0</td>
+      <td class="neg">-39,600</td>
+      <td><span class="badge bg-red">0.0%</span></td>
+      <td>0</td><td>8,880</td><td>40</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>上海简谟生物技术有限公司</strong></td><td>黄盼</td>
+      <td>39,136</td><td>0</td>
+      <td class="neg">-39,136</td>
+      <td><span class="badge bg-red">0.0%</span></td>
+      <td>0</td><td>0</td><td>61</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>上海奥萌尼科技有限公司</strong></td><td>黄盼</td>
+      <td>28,800</td><td>0</td>
+      <td class="neg">-28,800</td>
+      <td><span class="badge bg-red">0.0%</span></td>
+      <td>0</td><td>0</td><td>25</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>上海建科咨询集团股份有限公司</strong></td><td>黄盼</td>
+      <td>24,388</td><td>83,800</td>
+      <td class="pos">+59,412</td>
+      <td><span class="badge bg-green">77.5%</span></td>
+      <td>0</td><td>107,300</td><td>74</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>上海复繁信息科技有限公司</strong></td><td>黄盼</td>
+      <td>24,000</td><td>0</td>
+      <td class="neg">-24,000</td>
+      <td><span class="badge bg-red">0.0%</span></td>
+      <td>0</td><td>0</td><td>25</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>上海晓途网络科技有限公司</strong></td><td>黄盼</td>
+      <td>24,000</td><td>0</td>
+      <td class="neg">-24,000</td>
+      <td><span class="badge bg-red">0.0%</span></td>
+      <td>0</td><td>62,420</td><td>66</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>北京布朗兄弟科技有限公司</strong></td><td>黄盼</td>
+      <td>24,000</td><td>0</td>
+      <td class="neg">-24,000</td>
+      <td><span class="badge bg-red">0.0%</span></td>
+      <td>0</td><td>0</td><td>78</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>上海迈睿晟智营销服务有限公司</strong></td><td>黄盼</td>
+      <td>22,512</td><td>23,360</td>
+      <td class="pos">+848</td>
+      <td><span class="badge bg-yellow">50.9%</span></td>
+      <td>22,780</td><td>1,745,123</td><td>46</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr><tr>
+      <td><strong>上海建科工程咨询有限公司</strong></td><td>黄盼</td>
+      <td>20,672</td><td>85,240</td>
+      <td class="pos">+64,568</td>
+      <td><span class="badge bg-green">80.5%</span></td>
+      <td>58,080</td><td>885,500</td><td>70</td>
+      <td class="editable" contenteditable="true"></td>
+      <td class="editable" contenteditable="true"></td>
+    </tr></table></div><div class="card">
+  <h2>🛡️ 我方占优客户（份额>70% & B值≥1万）</h2>
+  <p class="section-desc">共 13家 — 可增长空间已被我方大部占领，需防守</p>
+  <table>
+    <tr><th>客户名称</th><th>销售</th><th>B值</th><th>网站25A</th><th>份额</th><th>总职位</th><th>建议</th></tr><tr><td><strong>伊顿（中国）投资有限公司</strong></td><td>黄盼</td><td>136,108</td><td>359,430</td><td><span class="badge bg-green">72.5%</span></td><td>221</td><td><span class="badge bg-blue">高价值防守</span></td></tr><tr><td><strong>益科德（上海）有限公司</strong></td><td>李根</td><td>51,988</td><td>153,316</td><td><span class="badge bg-green">74.7%</span></td><td>145</td><td><span class="badge bg-blue">高价值防守</span></td></tr><tr><td><strong>思爱普（中国）有限公司</strong></td><td>李根</td><td>39,872</td><td>343,350</td><td><span class="badge bg-green">89.6%</span></td><td>116</td><td><span class="badge bg-blue">高价值防守</span></td></tr><tr><td><strong>上海皓元医药股份有限公司</strong></td><td>赵悦</td><td>33,000</td><td>120,324</td><td><span class="badge bg-green">78.5%</span></td><td>52</td><td><span class="badge bg-blue">高价值防守</span></td></tr><tr><td><strong>上海建科咨询集团股份有限公司</strong></td><td>黄盼</td><td>24,388</td><td>83,800</td><td><span class="badge bg-green">77.5%</span></td><td>74</td><td><span class="badge bg-green">稳定维护</span></td></tr><tr><td><strong>捷普科技（上海）有限公司</strong></td><td>李根</td><td>21,388</td><td>91,560</td><td><span class="badge bg-green">81.1%</span></td><td>133</td><td><span class="badge bg-green">稳定维护</span></td></tr><tr><td><strong>上海建科工程咨询有限公司</strong></td><td>黄盼</td><td>20,672</td><td>85,240</td><td><span class="badge bg-green">80.5%</span></td><td>70</td><td><span class="badge bg-green">稳定维护</span></td></tr><tr><td><strong>村田（中国）投资有限公司</strong></td><td>赵悦</td><td>18,524</td><td>80,000</td><td><span class="badge bg-green">81.2%</span></td><td>32</td><td><span class="badge bg-green">稳定维护</span></td></tr><tr><td><strong>梅里埃诊断产品(上海)有限公司</strong></td><td>赵悦</td><td>15,600</td><td>49,920</td><td><span class="badge bg-green">76.2%</span></td><td>35</td><td><span class="badge bg-green">稳定维护</span></td></tr><tr><td><strong>颐海（上海）食品有限公司</strong></td><td>赵悦</td><td>15,504</td><td>41,000</td><td><span class="badge bg-green">72.6%</span></td><td>14</td><td><span class="badge bg-green">稳定维护</span></td></tr><tr><td><strong>眸芯科技（上海）有限公司</strong></td><td>黄盼</td><td>14,768</td><td>38,400</td><td><span class="badge bg-green">72.2%</span></td><td>32</td><td><span class="badge bg-green">稳定维护</span></td></tr><tr><td><strong>欧加隆（上海）医药科技有限公司</strong></td><td>叶竟仁</td><td>14,400</td><td>280,248</td><td><span class="badge bg-green">95.1%</span></td><td>43</td><td><span class="badge bg-green">稳定维护</span></td></tr><tr><td><strong>都乐（上海）水果蔬菜贸易有限公司</strong></td><td>赵悦</td><td>10,336</td><td>25,200</td><td><span class="badge bg-green">70.9%</span></td><td>20</td><td><span class="badge bg-green">稳定维护</span></td></tr></table></div><div class="card">
+  <h2>⚪ B值=0 客户（可增长空间为0）</h2>
+  <p class="section-desc">共 50家 — 竞品无投入，我方独占或双方休眠</p>
+  <div class="grid-3" style="margin-bottom:0;">
+    <div class="insight insight-green"><strong>🟢 我方有投入：13家</strong><br>竞品无投入，我方独占 → 核心忠诚客户</div>
+    <div class="insight insight-yellow"><strong>🟡 双方均无：34家</strong><br>休眠客户，需评估激活价值</div>
+    <div class="insight insight-blue"><strong>🔵 效果好的B0：45家</strong><br>虽无竞品但51job效果好 → 潜在增购</div>
+  </div>
+</div><div class="card">
+  <h2>📋 行动建议</h2>
+  <div class="grid-2" style="margin-bottom:0;">
+    <div class="insight insight-red">
+      <strong>🔴 P0 - 紧急收复（1周内）</strong><br>
+      10家可增长空间≥3万+份额&lt;30%。重点：<br>
+      <strong>倍乐生商贸（中国）有限公司</strong>(B55,800,份额0%), <strong>飞利浦（中国）投资有限公司</strong>(B115,200,份额26%), <strong>陆逊梯卡（中国）投资有限公司</strong>(B37,800,份额14%), <strong>元亨祥集团有限公司</strong>(B44,304,份额0%), <strong>地素时尚股份有限公司</strong>(B125,536,份额11%), <strong>钛和检测认证集团有限公司</strong>(B91,200,份额0%)
+      <br>→ 立即拜访，了解竞品优势，制定专属挽回方案
+    </div>
+    <div class="insight insight-yellow">
+      <strong>🟡 P1 - 扩大份额（1个月内）</strong><br>
+      8家B50+客户份额&lt;50%。重点：<br>
+      <strong>地素时尚股份有限公司</strong>(份额11%), <strong>上海罗莱生活科技有限公司</strong>(份额32%), <strong>上海朗阁教育科技股份有限公司</strong>(份额40%), <strong>上海盈石商务咨询有限公司</strong>(份额0%), <strong>飞利浦（中国）投资有限公司</strong>(份额26%)<br>
+      → 分析在51job使用深度，制定升级/交叉销售方案
+    </div>
+    <div class="insight insight-green">
+      <strong>🟢 防守维护</strong><br>
+      13家高份额客户需持续防守；13家B0独家客户定期关怀<br>
+      → 保持季度拜访，提前续约，防止竞品渗透
+    </div>
+    <div class="insight insight-blue">
+      <strong>🔵 各销售重点</strong><br>
+      <strong>赵悦</strong>：B50+重灾区（份额38.1%），钛和系+飞利浦紧急收复<br>
+      <strong>叶竟仁</strong>：<strong>最危险</strong>，B50+/B20全部空间大，需双线P0攻坚<br>
+      <strong>黄盼</strong>：B20是主战场（6家空间大），伊顿防守+倍乐生收复<br>
+      <strong>李根</strong>：防守最好，重点攻克陆逊梯卡（B20空间大）
+    </div>
+  </div>
+</div>
+
+<div style="text-align:center;color:#999;font-size:11px;padding:20px;">
+  项目营销十部 · B值分析报告 · B值=可增长空间 · 主战场=B20 · 2026-06-08 · 小客同学
+</div>
+</div>
+</body>
+</html>
